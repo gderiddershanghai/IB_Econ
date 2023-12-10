@@ -1,9 +1,9 @@
 from dotenv import load_dotenv, find_dotenv
 import numpy as np
 import random
-from module.final_mpc import MPC_QUESTIONS
-from module.final_short_essay import SHORT_ESSAYS
-from module.final_scenario_essay import SCENARIO_QUESTIONS
+from final_mpc import MPC_QUESTIONS
+from final_short_essay import SHORT_ESSAYS
+from final_scenario_essay import SCENARIO_QUESTIONS
 
 from exam_tester import exam_prep, exam_correction
 question_index = np.random.choice(range(25), size=2, replace=False)
